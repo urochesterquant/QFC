@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantitative Finance Club | University of Rochester</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#hero" class="logo-link" aria-label="Home">
+                    <img src="placeholder-club-logo.svg" alt="QFC" class="logo-club">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link nav-link-active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#curriculum" class="nav-link">Curriculum</a></li>
+                <li><a href="#team" class="nav-link">Team</a></li>
+                <li><a href="#join" class="nav-link">Join</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="theme-toggle-track">
+                    <span class="theme-toggle-text-light">Light</span>
+                    <span class="theme-toggle-text-dark">Dark</span>
+                </span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background">
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Quantitative Finance Club</h1>
+            <p class="hero-mission">Empowering students to excel in quantitative finance through rigorous education, hands-on competition, and professional development. We bridge the gap between academic theory and industry practice.</p>
+            <div class="hero-cta">
+                <a href="#join" class="btn btn-primary">Join the Club</a>
+                <a href="#curriculum" class="btn btn-secondary">View Curriculum</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section section-alt" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About QFC</h2>
+                <p class="section-description">Empowering the next generation of quantitative finance professionals at the University of Rochester.</p>
+            </div>
+            <div class="card-grid">
+                <div class="feature-card">
+                    <div class="feature-card-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <circle cx="12" cy="12" r="6"/>
+                            <circle cx="12" cy="12" r="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card-title">Our Mission</h3>
+                    <p class="feature-card-text">Bridge the gap between academic theory and industry practice through hands-on learning and real-world applications.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/>
+                            <polyline points="16 7 22 7 22 13"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card-title">Our Vision</h3>
+                    <p class="feature-card-text">Create a premier community for students passionate about quantitative finance, algorithmic trading, and financial technology.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card-title">Our Values</h3>
+                    <p class="feature-card-text">Excellence, collaboration, innovation, and professional development drive everything we do.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum Section -->
+    <section class="section" id="curriculum">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Spring 2026 Curriculum</h2>
+                <p class="section-description">10-week structured program covering quantitative finance theory and practical implementation.</p>
+            </div>
+            <div class="curriculum-timeline">
+                <div class="curriculum-week-item">
+                    <div class="curriculum-week-number">Week 1</div>
+                    <div class="curriculum-week-content">
+                        <h3 class="curriculum-week-title">Introduction to Quantitative Finance</h3>
+                        <ul class="curriculum-week-bullets">
+                            <li>Overview of market microstructure and trading mechanisms</li>
+                            <li>Introduction to alpha, beta, and risk-adjusted returns</li>
+                            <li>Asset pricing fundamentals and risk metrics</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="curriculum-week-item">
+                    <div class="curriculum-week-number">Week 2</div>
+                    <div class="curriculum-week-content">
+                        <h3 class="curriculum-week-title">Data, Python, and Backtesting Foundations</h3>
+                        <ul class="curriculum-week-bullets">
+                            <li>Python libraries for financial data analysis</li>
+                            <li>Implementation of backtesting frameworks</li>
+                            <li>Data cleaning and preprocessing techniques</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="curriculum-week-item">
+                    <div class="curriculum-week-number">Week 3</div>
+                    <div class="curriculum-week-content">
+                        <h3 class="curriculum-week-title">Alpha Factors and Signal Research</h3>
+                        <ul class="curriculum-week-bullets">
+                            <li>Development of alpha factors from multiple data sources</li>
+                            <li>Evaluation of factor performance and decay</li>
+                            <li>Statistical significance testing for signals</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="curriculum-week-item">
+                    <div class="curriculum-week-number">Week 4</div>
+                    <div class="curriculum-week-content">
+                        <h3 class="curriculum-week-title">Statistical Arbitrage and Mean Reversion</h3>
+                        <ul class="curriculum-week-bullets">
+                            <li>Pairs trading and cointegration analysis</li>
+                            <li>Mean reversion strategy implementation</li>
+                            <li>Execution algorithms and transaction costs</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="curriculum-week-item">
+                    <div class="curriculum-week-number">Week 5</div>
+                    <div class="curriculum-week-content">
+                        <h3 class="curriculum-week-title">Options and Derivatives</h3>
+                        <ul class="curriculum-week-bullets">
+                            <li>Options pricing models (Black-Scholes, binomial trees)</li>
+                            <li>Greeks calculation and interpretation</li>
+                            <li>Volatility surfaces and derivative strategies</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="curriculum-week-item">
+                    <div class="curriculum-week-number">Week 6</div>
+                    <div class="curriculum-week-content">
+                        <h3 class="curriculum-week-title">Volatility Modeling</h3>
+                        <ul class="curriculum-week-bullets">
+                            <li>GARCH models and stochastic volatility</li>
+                            <li>Volatility forecasting techniques</li>
+                            <li>VIX trading and volatility strategies</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="curriculum-week-item">
+                    <div class="curriculum-week-number">Week 7</div>
+                    <div class="curriculum-week-content">
+                        <h3 class="curriculum-week-title">Portfolio Optimization</h3>
+                        <ul class="curriculum-week-bullets">
+                            <li>Modern portfolio theory and mean-variance optimization</li>
+                            <li>Alternative optimization techniques (risk parity, etc.)</li>
+                            <li>Constraints and transaction costs in practice</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="curriculum-week-item">
+                    <div class="curriculum-week-number">Week 8</div>
+                    <div class="curriculum-week-content">
+                        <h3 class="curriculum-week-title">Risk Management</h3>
+                        <ul class="curriculum-week-bullets">
+                            <li>VaR and Expected Shortfall calculation</li>
+                            <li>Stress testing methodologies</li>
+                            <li>Risk limits and position sizing</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="curriculum-week-item">
+                    <div class="curriculum-week-number">Week 9</div>
+                    <div class="curriculum-week-content">
+                        <h3 class="curriculum-week-title">Quant Recruiting Preparation</h3>
+                        <ul class="curriculum-week-bullets">
+                            <li>Resume optimization for quantitative roles</li>
+                            <li>Technical interview preparation strategies</li>
+                            <li>Problem-solving approaches for brain teasers</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="curriculum-week-item">
+                    <div class="curriculum-week-number">Week 10</div>
+                    <div class="curriculum-week-content">
+                        <h3 class="curriculum-week-title">Capstone Project Showcase</h3>
+                        <ul class="curriculum-week-bullets">
+                            <li>Project presentation techniques</li>
+                            <li>Peer review process</li>
+                            <li>Industry feedback integration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="section section-alt" id="team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Team</h2>
+                <p class="section-description">Meet the student leaders and faculty advisors driving QFC forward.</p>
+            </div>
+            <div class="card-grid">
+                <div class="feature-card">
+                    <div class="feature-card-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card-title">Leadership Team</h3>
+                    <p class="feature-card-text">Dedicated students committed to advancing quantitative finance education at UR.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card-title">Faculty Advisors</h3>
+                    <p class="feature-card-text">Expert guidance from University of Rochester faculty members.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                            <polyline points="2 17 12 22 22 17"/>
+                            <polyline points="2 12 12 17 22 12"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card-title">Committees</h3>
+                    <p class="feature-card-text">Specialized teams driving research, education, career, and tech initiatives.</p>
+                </div>
+            </div>
+            <div class="section-cta">
+                <a href="#join" class="btn btn-secondary">Join Our Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section class="section" id="join">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Join QFC</h2>
+                <p class="section-description">Become part of the quantitative finance community at the University of Rochester.</p>
+            </div>
+            <div class="card-grid">
+                <div class="feature-card">
+                    <div class="feature-card-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card-title">Member Resources & Updates</h3>
+                    <p class="feature-card-text">Resources, announcements, and internal updates are available to active members through the club's official portal.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="8" r="7"/>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card-title">Become a Member</h3>
+                    <p class="feature-card-text">Official membership is managed through the University of Rochester's Campus Community Connection (CCC). Join to access resources and participate in club activities.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-card-icon">
+                        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <circle cx="12" cy="12" r="6"/>
+                            <circle cx="12" cy="12" r="2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-card-title">Join a Committee</h3>
+                    <p class="feature-card-text">Committee participation is optional and typically follows membership. Contribute to Research, Education, Career, or Tech initiatives.</p>
+                </div>
+            </div>
+            <div class="section-cta">
+                <a href="https://rochester.campuslabs.com/engage/organization/qfc" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Join on CCC</a>
+                <a href="mailto:urochesterquant@gmail.com" class="btn btn-secondary">Email Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h4>Quantitative Finance Club</h4>
+                    <p>University of Rochester</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="#hero">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#curriculum">Curriculum</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#join">Join</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h5>Connect</h5>
+                        <ul>
+                            <li><a href="mailto:urochesterquant@gmail.com">urochesterquant@gmail.com</a></li>
+                            <li><a href="https://linkedin.com/company/qfc-rochester" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                            <li><a href="https://discord.gg/qfc-rochester" target="_blank" rel="noopener noreferrer">Discord</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Quantitative Finance Club, University of Rochester. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

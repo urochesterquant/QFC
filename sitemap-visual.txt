@@ -1,0 +1,50 @@
+QUANTITATIVE FINANCE CLUB - VISUAL SITEMAP
+===========================================
+
+                          HOME (/)
+                             |
+        ┌────────────────────┼────────────────────┐
+        |                    |                    |
+     ABOUT              CURRICULUM            EVENTS
+    (/about)            (/curriculum)        (/events)
+        |                    |                    |
+        |                    |                    |
+    RESOURCES              TEAM                 JOIN
+   (/resources)           (/team)              (/join)
+        |                    |                    |
+        |                    |                    |
+   SPONSORS &           CONTACT
+   PARTNERS            (/contact)
+   (/sponsors)
+
+PAGE DEPENDENCIES & FLOWS
+=========================
+
+Home → Join (primary CTA)
+Home → Curriculum (education section)
+Home → Events (competition section)
+Home → About (footer)
+
+About → Join
+About → Team
+
+Curriculum → Join (enrollment)
+Curriculum → Resources (materials)
+
+Events → Join (membership required for some events)
+Events → Resources (event materials)
+
+Resources → Curriculum (curriculum materials)
+Resources → Events (event recordings)
+
+Team → Contact
+Team → Join
+
+Join → Contact (questions)
+Join → About (learn more)
+
+Sponsors → Contact (partnership inquiries)
+Sponsors → Join (sponsor benefits)
+
+Contact → All pages (general inquiries)
+
