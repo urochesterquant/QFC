@@ -1,16 +1,5 @@
 # Quantitative Finance Club Website
 
-## Features
-
-- **Bold Hero Section** with gradient text and smooth animations
-- **Four Main Sections**: Competition, Education, Professional, and Community
-- **Smooth Scrolling** navigation
-- **Crisp Typography** using Inter font family
-- **Generous Whitespace** for a clean, modern aesthetic
-- **Dark Mode** support with theme toggle
-- **Responsive Design** optimized for all screen sizes
-- **Design System** with reusable components and tokens
-
 ## Design System
 
 ### Colors
