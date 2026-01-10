@@ -289,9 +289,22 @@ img {
   pointer-events: auto;
 }
 
+/* Hide About and Team links on mobile */
+@media (max-width: 768px) {
+  .nav-links li:nth-child(2),
+  .nav-links li:nth-child(4) {
+    display: none;
+  }
+}
+
 @media (min-width: 1024px) {
   .nav-links {
     gap: var(--spacing-xl);
+  }
+  
+  /* Show all links on desktop */
+  .nav-links li {
+    display: list-item;
   }
 }
 
